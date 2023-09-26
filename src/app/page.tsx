@@ -6,7 +6,7 @@ import Articles from './_components/Articles'
 export default function Home() {
   return (
     <>
-    <div className="container">
+    <div className="container grid gap-4">
       <Nav />
       <div className="w-10/12 mx-auto">
       <Form />

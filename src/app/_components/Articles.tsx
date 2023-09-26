@@ -6,10 +6,10 @@ import CompleteBtn from "./CompleteBtn"
 
 const Articles = () => {
   return (
-    <main className="flex flex-col bg-red-300">
+    <main className="flex flex-col">
       <h2>My Todos</h2>
-      <section className="flex flex-wrap gap-1">
-        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md md:w-1/3">
+      <section className="flex flex-col flex-grow md:grid md:grid-cols-3 gap-4">
+        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md ">
           <h3>Todotitle</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -19,7 +19,7 @@ const Articles = () => {
             <CompleteBtn />
           </div>
         </article>
-        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md md:w-1/3">
+        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md">
           <h3>Todotitle</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -29,7 +29,7 @@ const Articles = () => {
             <CompleteBtn />
           </div>
         </article>
-        <article className="flex w-full flex-col flex-grow gap-1  p-4 text-center shadow-md md:w-1/3">
+        <article className="flex w-full flex-col flex-grow gap-1  p-4 text-center shadow-md">
           <h3>Todotitle</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -39,7 +39,7 @@ const Articles = () => {
             <CompleteBtn />
           </div>
         </article>
-        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md md:w-1/3">
+        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md">
           <h3>Todotitle</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -49,7 +49,7 @@ const Articles = () => {
             <CompleteBtn />
           </div>
         </article>
-        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md md:w-1/3">
+        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md">
           <h3>Todotitle</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
@@ -59,7 +59,7 @@ const Articles = () => {
             <CompleteBtn />
           </div>
         </article>
-        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md md:w-1/3">
+        <article className="flex w-full flex-col flex-grow gap-1 p-4 text-center shadow-md">
           <h3>Todotitle</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis

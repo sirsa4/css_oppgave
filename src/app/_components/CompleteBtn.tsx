@@ -1,10 +1,19 @@
-import Link from "next/link"
+import { TodoProvider } from "@/context/TodoContext"
+import { useContext } from "react"
 
-const CompleteBtn = () => {
+type CompleteType = {
+  complete: string,
+  id: number
+}
+
+const CompleteBtn = ({complete, id}: CompleteType) => {
+  const {handleComplete} = useContext(TodoProvider);
   return (
-    <Link href="#" className="rounded bg-cyan-400 px-9 py-1 text-white">
-      Complete
-    </Link>
+    <button className="rounded bg-cyan-400 px-9 py-1 text-white"
+    onClick={()=>handleComplete(id)}
+    >
+      {complete}
+    </button>
   )
 }
 
